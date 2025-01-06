@@ -17,7 +17,7 @@
                 <ul class="flex space-x-4">
                     <li><a href="login.php" class="text-gray-700 hover:text-blue-500">Submit your Ideas</a></li>
                     <li><a href="AboutUs.php" class="text-gray-700 hover:text-blue-500">About Us</a></li>
-                    <li><a href="Contact.php" class="text-gray-700 hover:text-blue-500">Contact Us</a></li>
+                    <li><a href="login.php" class="text-gray-700 hover:text-blue-500">Contact Us</a></li>
                 </ul>
             </nav>
             <div> 
