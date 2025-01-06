@@ -15,20 +15,17 @@
             </div>
             <nav>
                 <ul class="flex space-x-4">
-                    <li><a href="IdeaSubmission.php" class=" text-gray-700 hover:text-blue-500">Submit Your Ideas</a></li>
+                    <li><a href="LandingPage.php" class=" text-gray-700 hover:text-blue-500">Home</a></li>
                     <li><a href="AboutUs.php" class=" text-gray-700 hover:text-blue-500">About Us</a></li>
-                    <li><a href="HomePage.php" class="text-gray-700 hover:text-blue-500">Home</a></li>
+                    <li><a href="IdeaSubmission.php" class="text-gray-700 hover:text-blue-500">Submit your Ideas</a></li>
                 </ul>
             </nav>
+            <div> 
+                <a href="logout.php" class="text-black-500 hover:text-blue-500 font-bold mx-2">Logout</a>
+</div>
         </div>
         </div>
     </header>
-    <header class="text-black py-6">
-        <div class="container mx-auto text-center">
-            <h1 class="text-4xl font-bold">Contact Us</h1>
-        </div>
-    </header>
-
     <main class="container mx-auto my-10 p-6">
         <section class="mb-8">
             <h2 class="text-3xl font-semibold mb-4">Get in Touch</h2>
