@@ -7,7 +7,14 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 $user_id = $_SESSION['user_id'];
+$user_query = "SELECT username, email FROM signup WHERE user_id = '$user_id'";
+$user_result = mysqli_query($conn, $user_query);
+$user = mysqli_fetch_assoc($user_result);
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $message = $_POST['message']; 
+    $name = $user['username'];
+    $email = $user['email'];
     
     if (empty($name) || empty($email) || empty($message)) {
         echo "All required fields must be filled out.";
