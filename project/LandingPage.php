@@ -14,6 +14,7 @@ if(!isset($_SESSION['user_id']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
+        <script type="text/javascript" src="filterfunction.js"></script>
 </head>
 <body class="bg-gray-100">
 <header class="bg-white shadow">
